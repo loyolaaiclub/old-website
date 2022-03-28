@@ -4,7 +4,7 @@ title: "LAIC...title"
 permalink: /
 ---
 
-![logo](https://raw.githubusercontent.com/loyolaaiclub/loyolaaiclub.github.io/main/logo.jpg)
+# TEMP ![logo](https://raw.githubusercontent.com/loyolaaiclub/loyolaaiclub.github.io/main/logo.jpg)
 
 ## [About](https://loyolaaiclub.github.io/about)
 
