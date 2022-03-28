@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: page
 title: "LAIC...title"
 permalink: /
----
+--- -->
 
 # TEMP ![logo](https://raw.githubusercontent.com/loyolaaiclub/loyolaaiclub.github.io/main/logo.jpg)
 
