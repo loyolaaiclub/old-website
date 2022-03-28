@@ -1,4 +1,6 @@
-# Loyola AI Club (LAIC) ![logo](https://github.com/loyolaaiclub/loyolaaiclub.github.io/logo.jpg)
+# Loyola AI Club (LAIC) ![logo](https://raw.githubusercontent.com/loyolaaiclub/loyolaaiclub.github.io/main/logo.jpg)
+
+## [About][https://loyolaaiclub.github.io/about]
 
 EST. 2022
 
@@ -8,4 +10,5 @@ Speakers are brought on campus once a month to discuss how they use AI in the re
 
 # Contact
 
-loyolaAiClub@gmail.com
+[loyolaaiclub@gmail.com](mailto:loyolaaiclub@gmail.com)
+[https://github.com/loyolaaiclub](https://github.com/loyolaaiclub)
