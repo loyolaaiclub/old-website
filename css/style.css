@@ -33,6 +33,11 @@
 body {
     margin : 0;
     background : var(--color-main);
+
+    /* background-image : url('https://ak.picdn.net/shutterstock/videos/30118207/thumb/1.jpg'); */
+    /* background-blend-mode: overlay; */
+    /* background-size: 100% 110%; */
+
     color : var(--color-text);
     font-family : "Nunito", sans-serif;
 }
@@ -198,7 +203,7 @@ embed {
 }
 
 .publication {
-    grid-template-columns: 1fr 10fr 5fr ;
+    grid-template-columns: 100px 10fr 5fr ;
     grid-template-rows:  60px 1fr;
 
     grid-template-areas:
