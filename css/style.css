@@ -42,6 +42,11 @@ body {
     font-family : "Nunito", sans-serif;
 }
 
+.invert {
+    background : var(--color-text);
+    color : var(--color-main);
+}
+
 div {
     padding : 5px 5px;
 }
@@ -204,7 +209,7 @@ embed {
 
 .publication {
     grid-template-columns: 100px 10fr 5fr ;
-    grid-template-rows:  60px 1fr;
+    grid-template-rows:  1fr 1fr;
 
     grid-template-areas:
         "num title svg"
