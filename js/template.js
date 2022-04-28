@@ -26,9 +26,12 @@ function build_navbar(){
 
     template.innerHTML = `
         <div class='row'>
-            <h2>
-                <a href="index.html"> Loyola AI Club </a>
-            </h2>
+            <a href="index.html">
+                <div class="row center">
+                    <img id="avatar" src="img/logo.jpg" alt="LAIC" style="height:40PX ; width:40PX">
+                    <h2> Loyola AI Club </h2>
+                </div>
+            </a>
         <ul class="nav-links row">
             <li>${make_red('<a href="about.html">About</a>')}</li>
             <li>${make_red('<a href="projects.html">Projects</a>')}</li>
