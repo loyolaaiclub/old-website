@@ -60,7 +60,7 @@ function build_socials() {
                 <i class="fa-brands fa-3x fa-github"></i>
                 </a>
             </li>
-            <li> we need to make a linkedin
+            <li>
                 <!-- <a href="https://www.linkedin.com/in/matt-hyatt-7bb18422a/" aria-label="LinkedIn"> -->
                 <i class="fa-brands fa-3x fa-linkedin"></i>
                 <!-- </a> -->
