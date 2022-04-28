@@ -67,7 +67,7 @@ function build_socials() {
             </li>
             <li>
                 <a href="https://join.slack.com/t/laicworkspace/signup" aria-label="Slack">
-                <i class="fa-brands fa-slack"></i>
+                <i class="fa-brands fa-3x fa-slack"></i>
                 </a>
             </li>
             <li>
