@@ -13,7 +13,7 @@ function make_red(anchor) {
     const page = get_page()
     const re = RegExp('>.*<')
     const linktext = String(anchor).match(re)[0].slice(1,-1).replaceAll(" ","").toLowerCase()
-    if (page === linktext || (page === 'index' && linktext === 'home')) {
+    if (page === linktext || (page === 'index' && linktext === 'about')) {
         const out = '<a class="onpage"' + anchor.slice(2,-1) + '>'
         return out
     }
@@ -33,7 +33,7 @@ function build_navbar(){
                 </div>
             </a>
         <ul class="nav-links row">
-            <li>${make_red('<a href="about.html">About</a>')}</li>
+            <li>${make_red('<a href="index.html">About</a>')}</li>
             <li>${make_red('<a href="projects.html">Projects</a>')}</li>
             <li>${make_red('<a href="speakers.html">Speakers</a>')}</li>
             <li>${make_red('<a href="workshops.html">Workshops</a>')}</li>
