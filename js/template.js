@@ -62,10 +62,10 @@ function build_socials() {
                 <i class="fa-brands fa-3x fa-linkedin"></i>
                 <!-- </a> -->
             </li>
-            <li> what is the email
-                <!-- <a href="mailto:mhyatt@luc.edu" aria-label="Email"> -->
+            <li>
+                <a href="mailto:loyolaaiclub@gmail.com" aria-label="Email">
                 <i class="fa-solid fa-3x fa-envelope"></i>
-                <!-- </a> -->
+                </a>
             </li>
     `
 
