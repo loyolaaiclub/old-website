@@ -1,110 +1,111 @@
 /* ::-webkit-scrollbar { display: none; } */
 
-:root{
-    --radius:5px;
+:root {
+    --radius: 5px;
 
     /* colors */
-    --grey0 : gainsboro;
-    --grey1 : #CFCFCF;
-    --grey2 : #A8A8A8;
-    --grey3 : #777777;
-    --grey4 : #565656;
-    --grey5 : #414141;
-    --grey6 : #333333;
+    --grey0: gainsboro;
+    --grey1: #cfcfcf;
+    --grey2: #a8a8a8;
+    --grey3: #777777;
+    --grey4: #565656;
+    --grey5: #414141;
+    --grey6: #333333;
 
-    --green1 : #4b5320;
-    --green2 : #444b1d;
-    --green3 : #3c421a;
-    --green4 : #353a16;
-    --green5 : #2d3213;
-    --green6 : #262a10;
-    --green7 : #1e210d;
-    --green8 : #17190a;
-    --green9 : #0f1106;
+    --green1: #4b5320;
+    --green2: #444b1d;
+    --green3: #3c421a;
+    --green4: #353a16;
+    --green5: #2d3213;
+    --green6: #262a10;
+    --green7: #1e210d;
+    --green8: #17190a;
+    --green9: #0f1106;
 
-    --color-accent1 : #263037;
-    --color-accent2 : var(--color-accent1);
+    --color-accent1: #263037;
+    --color-accent2: var(--color-accent1);
 
-    --color-main : var(--grey0);
-    --color-plain : var(--grey6);
-    --color-text : var(--grey6);
+    --color-main: var(--grey0);
+    --color-plain: var(--grey6);
+    --color-text: var(--grey6);
 }
 
 body {
-    margin : 0;
-    background : var(--color-main);
+    margin: 0;
+    background: var(--color-main);
 
     /* background-image : url('https://ak.picdn.net/shutterstock/videos/30118207/thumb/1.jpg'); */
     /* background-blend-mode: overlay; */
     /* background-size: 100% 110%; */
 
-    color : var(--color-text);
-    font-family : "Nunito", sans-serif;
+    color: var(--color-text);
+    font-family: "Nunito", sans-serif;
 }
 
 .invert {
-    background : var(--color-text);
-    color : var(--color-main);
+    background: var(--color-text);
+    color: var(--color-main);
 }
 
 div {
-    padding : 5px 5px;
+    padding: 5px 5px;
 }
 
 .flex {
     display: flex;
-
 }
 .row {
-    height : 100%;
+    height: 100%;
     display: grid;
     grid-auto-flow: column;
-    grid-row : 1;
-
+    grid-row: 1;
 }
 .col {
-    width : 100%;
-    display : grid;
+    width: 100%;
+    display: grid;
     grid-auto-flow: row;
-    grid-column : 1;
+    grid-column: 1;
 }
 
 /* grids and flex boxes are spaced evenly by default */
-.even , .row , .col , .flex{
-    justify-content : space-evenly;
-    justify-items : center;
-    align-content : space-evenly;
+.even,
+.row,
+.col,
+.flex {
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
     align-items: center;
 }
 .center {
-    justify-content : center;
-    justify-items : center;
-    align-content : center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
     align-items: center;
 }
 
 #avatar {
     border-radius: 50%;
     width: 200px;
-    padding : 10px 10px;
+    padding: 10px 10px;
 }
 
 #intro {
     align-self: center;
 
     display: grid;
-    grid-template-rows : auto;
+    grid-template-rows: auto;
 
-    justify-content : center;
-    justify-items : center;
-    align-content : center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
     align-items: center;
 }
 
-.content-left{
+.content-left {
     grid-area: content-left;
 }
-.content-right{
+.content-right {
     grid-area: content-right;
 }
 .content-center {
@@ -118,23 +119,28 @@ div {
 }
 
 .double {
-    width : 100%;
-    display : grid;
+    width: 100%;
+    display: grid;
     grid-auto-flow: dense;
     grid-template-columns: 1fr 1fr;
 }
 
-h1, h2, h3 {
-    letter-spacing : 3px;
+h1,
+h2,
+h3 {
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
-.text-center , h1, h2, span{
-    text-align : center;
+.text-center,
+h1,
+h2,
+span {
+    text-align: center;
 }
 
 ul {
-    padding : 0px 0px
+    padding: 0px 0px;
 }
 
 li {
@@ -143,26 +149,22 @@ li {
 }
 
 li.bullet {
-    list-style : inside;
+    list-style: inside;
 }
 
 i {
     /* background : var(--color-main); */
-    color : var(--color-plain);
+    color: var(--color-plain);
 }
 i:hover {
-    color : var(--color-accent2);
+    color: var(--color-accent2);
 }
-
 
 p {
     color: var(--color-text);
-    font-size : 15px;
+    font-size: 15px;
     line-height: 2;
 }
-
-
-
 
 a {
     color: var(--color-plain);
@@ -178,74 +180,80 @@ nav a {
     text-decoration: none;
 }
 p a {
-    color : var(--color-accent2);
+    color: var(--color-accent2);
     text-decoration: underline;
 }
 
 nav a:hover {
     /* background-color: var(--color-accent2); */
-    color : var(--grey0);
+    color: var(--grey0);
 }
 
-
 .onpage {
-    background-color : var(--color-main);
-    color : var(--color-accent1);
+    background-color: var(--color-main);
+    color: var(--color-accent1);
 }
 
 embed {
     align-self: stretch;
 }
 
+.publication,
+.project {
+    width: 100%;
+    border-radius: var(--radius);
 
-.publication , .project {
-    width : 100%;
-    border-radius : var(--radius);
-
-    display : grid;
-    grid-gap:0.2rem;
+    display: grid;
+    grid-gap: 0.2rem;
     /* what is this grid gap even there for ??? */
 }
 
 .publication {
-    grid-template-columns: 100px 10fr 5fr ;
-    grid-template-rows:  1fr 1fr;
+    grid-template-columns: 100px 10fr 5fr;
+    grid-template-rows: 1fr 1fr;
 
     grid-template-areas:
         "num title svg"
         ". citation citation";
 }
-.publication:hover , .project:hover{
-    background-color : var(--grey1);
-    color : var(--color-accent2)
+.publication:hover,
+.project:hover {
+    background-color: var(--grey1);
+    color: var(--color-accent2);
 }
 
-.publication p { grid-area : num; }
-.publication h2 { grid-area : title; justify-self : start;}
-.publication img { grid-area : svg; }
-.publication .citation { grid-area : citation; justify-self : start;}
+.publication p {
+    grid-area: num;
+}
+.publication h2 {
+    grid-area: title;
+    justify-self: start;
+}
+.publication img {
+    grid-area: svg;
+}
+.publication .citation {
+    grid-area: citation;
+    justify-self: start;
+}
 
 .publication h3 {
     /* cheap work around for readinglist rn */
-    grid-area : title / title / title / svg;
-    justify-self : start;
+    grid-area: title / title / title / svg;
+    justify-self: start;
 }
-
 
 .project {
     grid-template-rows: 60px 120px 60px;
 }
 
-
-
-
 /* approved ^^^ */
 
 .container {
-    margin : 0;
-    padding : 0;
-    min-height : 98vh;
-    display:grid;
+    margin: 0;
+    padding: 0;
+    min-height: 98vh;
+    display: grid;
 
     grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
     grid-template-rows: 60px 1fr 1fr;
@@ -253,29 +261,29 @@ embed {
         "nav nav nav nav"
         ". main main ."
         ". main main .";
-    grid-gap:0.2rem;
+    grid-gap: 0.2rem;
 
     font-weight: 800;
-    font-size:12px;
+    font-size: 12px;
 }
 
-main{
+main {
     display: grid;
     grid-area: main;
-    grid-template-columns:  1fr 1fr ;
-    grid-template-rows:  60px 1.5fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px 1.5fr;
 
     grid-template-areas:
         "desc desc"
         "content-left content-right";
 
-    grid-gap:0.2rem;
-    font-size:12px;
+    grid-gap: 0.2rem;
+    font-size: 12px;
 }
 
 nav {
     background: var(--color-accent1);
-    color : var(--color-main);
+    color: var(--color-main);
 
     grid-area: nav;
     /* display: flex;
@@ -284,15 +292,14 @@ nav {
     align-items: center; */
     min-height: 8vh;
     text-transform: uppercase;
-
 }
 
-.nav-links a{
+.nav-links a {
     letter-spacing: 3px;
     font-size: 12px;
     padding: 12px 8px;
 }
 
-.desc{
+.desc {
     grid-area: desc;
 }
