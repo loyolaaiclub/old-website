@@ -1,6 +1,6 @@
 # https://github.com/adityatelange/hugo-PaperMod
 
-baseURL: "https://github.nsynovic.dev/laic-website-hugo"
+baseURL: "https://loyolaaiclub.github.io"
 title: Loyola AI Club 
 paginate: 15
 theme: PaperMod
@@ -67,7 +67,7 @@ params:
     imageUrl: "logo.jpg"
     imageWidth: 240
     imageHeight: 240 
-    imageTitle: Loyola AI Club (LAIC) Logo 
+    imageTitle: Loyola AI Club (LAIC)  Logo 
     buttons:
       - name: About
         url: about
